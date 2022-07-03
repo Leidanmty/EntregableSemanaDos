@@ -1,10 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body{
   background: url(./img/heartstopper.jpg);
 }
 
 .App {
-  text-align: center;
+  height: 100vh;
+  text-align: center;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.box{
+  background: rgba(255, 255, 255, 0.8);
+  width: 50%;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: #f9a59a .35px 0px 50px 10px;
+  overflow: hidden;
+}
+.clim{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon{
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  align-items: center;
+}
+
+.information{
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+}
+
+h1{
+  color: #84b6f4;
+  margin: 10px;
+}
+
+h2{
+  color: #d3bcf6  ;
+  margin: 10px;
+}
+
+p{
+  margin: 5px;
+  margin-bottom: 20px;
+  color: #f9a59a;
+  font-size: 24px;
+}
+
+button{
+  margin-top: 80px;
+  width: 300px;
+  height: 50px;
+  background: #75c2f9;
+  border-style: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.icon>img{
+  width: 200px;
+}
 
 
